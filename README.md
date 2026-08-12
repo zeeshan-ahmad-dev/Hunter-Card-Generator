@@ -1,16 +1,38 @@
-# React + Vite
+# Hunter Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple Hunter Card Generator for creating personalized, shareable cards based on a user's SoloLevelX profile and progress.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Generate personalized hunter cards
+* Display user stats and achievements
+* Show XP, level, streak, and other progress
+* Responsive design
+* Easy card sharing and saving
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Vue 3
+* Vite
+* Tailwind CSS
+* JavaScript
+* HTML/CSS
 
-## Expanding the Oxlint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+git clone https://github.com/your-username/hunter-card-generator.git
+cd hunter-card-generator
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## About
+
+Hunter Card is a companion project for SoloLevelX, designed to turn user progress into a simple, visually appealing card that can be shared with others.
