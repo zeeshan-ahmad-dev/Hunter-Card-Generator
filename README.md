@@ -1,14 +1,14 @@
 # Hunter Card
 
-A simple Hunter Card Generator for creating personalized, shareable cards based on a user's SoloLevelX profile and progress.
+A simple Hunter Card Generator for creating personalized, shareable cards based on SoloLevelX user progress.
 
 ## Features
 
 * Generate personalized hunter cards
-* Display user stats and achievements
-* Show XP, level, streak, and other progress
+* Display level, XP, streak, and stats
+* Show achievements and progress
 * Responsive design
-* Easy card sharing and saving
+* Shareable card format
 
 ## Tech Stack
 
@@ -16,7 +16,10 @@ A simple Hunter Card Generator for creating personalized, shareable cards based 
 * Vite
 * Tailwind CSS
 * JavaScript
-* HTML/CSS
+
+## Live Demo
+
+https://hunter-card-generator.vercel.app/
 
 ## Getting Started
 
@@ -32,7 +35,3 @@ npm run dev
 ```bash
 npm run build
 ```
-
-## About
-
-Hunter Card is a companion project for SoloLevelX, designed to turn user progress into a simple, visually appealing card that can be shared with others.
