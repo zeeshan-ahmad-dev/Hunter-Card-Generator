@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  /* Background */
+  --color-bg: #F8FAFC;
+  --color-surface: #FFFFFF;
+   --color-surface-hover: #F1F5F9;
+
+  /* Primary */
+  --color-primary: #6366F1;
+  --color-primary-hover: #4F46E5;
+
+  /* Border */
+  --color-border: #E2E8F0;
+
+  /* Text */
+  --color-heading: #0F172A;
+  --color-text: #475569;
+  --color-text-muted: #94A3B8;
+}
+
+@utility input {
+    @apply w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-[14px] text-slate-800 outline-none transition-all duration-150 focus:border-[#6366F1] focus:ring-4 focus:ring-[#6366F1]/10 hover:border-slate-300;
+  }
